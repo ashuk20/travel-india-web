@@ -1,9 +1,43 @@
+import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:travel_india/app/theme/app_colors.dart';
 
 class AppTextStyles {
   AppTextStyles._();
+
+  static final heroTitle = GoogleFonts.inter(
+    fontSize: 72,
+    fontWeight: FontWeight.w900,
+    height: 1.0,
+    color: AppColors.textWhite,
+    letterSpacing: -1,
+  );
+
+  static final heroSubTitle = GoogleFonts.inter(
+    fontSize: 40,
+    fontStyle: FontStyle.italic,
+    fontWeight: FontWeight.w600,
+    color: AppColors.secondary,
+    height: 0.9
+  );
+
+  static final heroDescription = GoogleFonts.inter(
+    fontSize: 20,
+    fontWeight: FontWeight.w400,
+    height: 1.8,
+    color: Colors.white.withOpacity(.9),
+  );
+
+  static final navbar = GoogleFonts.inter(
+    fontSize: 16,
+    fontWeight: FontWeight.w600,
+    color: AppColors.textWhite,
+  );
+  static final button = GoogleFonts.inter(
+    fontSize: 15,
+    fontWeight: FontWeight.w600,
+  );
 
   static final display = GoogleFonts.inter(
     fontSize: 48,

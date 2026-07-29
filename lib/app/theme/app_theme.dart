@@ -8,7 +8,11 @@ class AppTheme {
     return ThemeData(
       useMaterial3: true,
       scaffoldBackgroundColor: AppColors.scaffold,
-      colorSchemeSeed: AppColors.primary,
+      colorScheme: ColorScheme.fromSeed(seedColor: AppColors.primary),
+      appBarTheme: const AppBarTheme(
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+      ),
     );
   }
 }
