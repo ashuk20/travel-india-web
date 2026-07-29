@@ -7,11 +7,11 @@ class AppTextStyles {
   AppTextStyles._();
 
   static final heroTitle = GoogleFonts.inter(
-    fontSize: 72,
-    fontWeight: FontWeight.w900,
+    fontSize: 50,
+    fontWeight: FontWeight.w800,
     height: 1.0,
     color: AppColors.textWhite,
-    letterSpacing: -1,
+    letterSpacing: 2,
   );
 
   static final heroSubTitle = GoogleFonts.inter(
@@ -23,23 +23,29 @@ class AppTextStyles {
   );
 
   static final heroDescription = GoogleFonts.inter(
-    fontSize: 20,
+    fontSize: 20, 
     fontWeight: FontWeight.w400,
     height: 1.8,
     color: Colors.white.withOpacity(.9),
   );
 
   static final searchButton = GoogleFonts.inter(
-    fontSize: 16,
-    fontWeight: FontWeight.w600,
+    fontSize: 12,
+    // fontWeight: FontWeight.w600,
     color: Colors.white,
   );
 
-  
   static final searchHint = GoogleFonts.inter(
     fontSize: 18,
-    fontWeight: FontWeight.w500,
+    fontWeight: FontWeight.w300,
     color: Color(0xff9CA3AF),
+  );
+
+  static final heroSectionLabel = GoogleFonts.inter(
+    fontSize: 14,
+    fontWeight: FontWeight.w600,
+    color: Colors.white70,
+    letterSpacing: 0.5,
   );
 
   static final navbar = GoogleFonts.inter(

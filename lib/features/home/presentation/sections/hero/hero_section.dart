@@ -10,7 +10,7 @@ class HeroSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 800,
+      height: 500,
       child: Stack(
         fit: StackFit.expand,
         children: [
@@ -19,6 +19,7 @@ class HeroSection extends StatelessWidget {
               image: DecorationImage(
                 image: AssetImage("hero/hero1.webp"),
                 fit: BoxFit.cover,
+                alignment: Alignment.centerRight
               ),
             ),
           ),
@@ -32,8 +33,8 @@ class HeroSection extends StatelessWidget {
             ),
           ),
           const Positioned(top: 0, left: 0, right: 0, child: HomeNavbar()),
-          HeroContent(),
-          
+          Positioned(top: 100,left: 0,right: 0,
+            child: HeroContent()),
         ],
       ),
     );

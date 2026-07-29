@@ -19,7 +19,7 @@ class AppSearchBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+      padding: const EdgeInsets.symmetric(horizontal: 8),
       height: 64,
       decoration: BoxDecoration(
         color: Colors.white,
@@ -42,7 +42,10 @@ class AppSearchBar extends StatelessWidget {
             ),
           ),
           SizedBox(width: 12),
-          AppSearchButton(onTap: onSearch),
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 8.0),
+            child: AppSearchButton(onTap: onSearch),
+          ),
         ],
       ),
     );

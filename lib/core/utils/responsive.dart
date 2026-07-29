@@ -12,4 +12,7 @@ class Responsive {
 
   static bool isMobile(BuildContext context) =>
       MediaQuery.of(context).size.width < 768;
+
+  static double width(BuildContext context) =>
+      MediaQuery.of(context).size.width;
 }

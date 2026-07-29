@@ -22,7 +22,7 @@ class AppSearchButton extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Icon(Icons.search, color: Colors.white,size: 20,),
+            const Icon(Icons.search, color: Colors.white,size: 18,),
             const SizedBox(width: 8),
             Text("Search", style: AppTextStyles.searchButton),
           ],

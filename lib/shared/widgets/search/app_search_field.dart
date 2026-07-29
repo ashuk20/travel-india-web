@@ -17,10 +17,13 @@ class AppSearchField extends StatelessWidget {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        const Icon(
-          Icons.location_on_outlined,
-          color: Color(0xff9CA3AF),
-          size: 20,
+        Padding(
+          padding: const EdgeInsets.only(left: 8.0),
+          child: const Icon(
+            Icons.location_on_outlined,
+            color: Color(0xff9CA3AF),
+            size: 20,
+          ),
         ),
         const SizedBox(width: 12),
         Expanded(

@@ -16,12 +16,12 @@ class HomeNavbar extends StatelessWidget {
             constraints: const BoxConstraints(maxWidth: 1400),
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 32),
-              child: const Row(
-                children: [
+              child: Row(
+                children: const [
                   NavbarLogo(),
-                  Spacer(),
-                  NavbarMenu(),
-                  Spacer(),
+                  SizedBox(width: 40,),
+                  Expanded(child: NavbarMenu()),
+                  
                   NavbarActions(),
                 ],
               ),

@@ -13,12 +13,16 @@ class NavbarMenu extends StatelessWidget {
   ];
   @override
   Widget build(BuildContext context) {
-    return Row(
-      children: List.generate(
-        menuItems.length,
-        (index) => Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 18),
-          child: NavbarMenuItem(title: menuItems[index]),
+    return Align(
+      alignment: Alignment.center,
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: List.generate(
+          menuItems.length,
+          (index) => Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: NavbarMenuItem(title: menuItems[index]),
+          ),
         ),
       ),
     );
