@@ -19,7 +19,7 @@ class AppTextStyles {
     fontStyle: FontStyle.italic,
     fontWeight: FontWeight.w600,
     color: AppColors.secondary,
-    height: 0.9
+    height: 0.9,
   );
 
   static final heroDescription = GoogleFonts.inter(
@@ -27,6 +27,19 @@ class AppTextStyles {
     fontWeight: FontWeight.w400,
     height: 1.8,
     color: Colors.white.withOpacity(.9),
+  );
+
+  static final searchButton = GoogleFonts.inter(
+    fontSize: 16,
+    fontWeight: FontWeight.w600,
+    color: Colors.white,
+  );
+
+  
+  static final searchHint = GoogleFonts.inter(
+    fontSize: 18,
+    fontWeight: FontWeight.w500,
+    color: Color(0xff9CA3AF),
   );
 
   static final navbar = GoogleFonts.inter(

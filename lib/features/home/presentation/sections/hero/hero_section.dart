@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:travel_india/features/home/presentation/sections/hero/hero_content.dart';
 import 'package:travel_india/features/home/presentation/sections/navbar/home_navbar.dart';
+import 'package:travel_india/shared/widgets/search/app_search_bar.dart';
 
 class HeroSection extends StatelessWidget {
   const HeroSection({super.key});
@@ -32,6 +33,7 @@ class HeroSection extends StatelessWidget {
           ),
           const Positioned(top: 0, left: 0, right: 0, child: HomeNavbar()),
           HeroContent(),
+          
         ],
       ),
     );
