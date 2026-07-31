@@ -6,7 +6,7 @@ class HeroPopularSearches extends StatelessWidget {
   const HeroPopularSearches({super.key});
 
   static const List<String> popularSearches = [
-    "Lonaval",
+    "Lonavala",
     "Pune",
     "Mahabaleshwar",
     "Matheran",

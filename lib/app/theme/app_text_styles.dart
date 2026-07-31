@@ -23,7 +23,7 @@ class AppTextStyles {
   );
 
   static final heroDescription = GoogleFonts.inter(
-    fontSize: 20, 
+    fontSize: 20,
     fontWeight: FontWeight.w400,
     height: 1.8,
     color: Colors.white.withOpacity(.9),
@@ -46,6 +46,16 @@ class AppTextStyles {
     fontWeight: FontWeight.w600,
     color: Colors.white70,
     letterSpacing: 0.5,
+  );
+  static final sectionTitle = GoogleFonts.playfairDisplay(
+    fontSize: 34,
+    fontWeight: FontWeight.w700,
+    color: AppColors.primary,
+  );
+  static final sectionAction = GoogleFonts.inter(
+    fontSize: 16,
+    fontWeight: FontWeight.w600,
+    color: AppColors.primary,
   );
 
   static final navbar = GoogleFonts.inter(
@@ -83,5 +93,10 @@ class AppTextStyles {
     fontSize: 14,
     fontWeight: FontWeight.w400,
     color: AppColors.textSecondary,
+  );
+
+  static final cardTitle = GoogleFonts.inter(
+    fontSize: 22,
+    fontWeight: FontWeight.w700,
   );
 }
