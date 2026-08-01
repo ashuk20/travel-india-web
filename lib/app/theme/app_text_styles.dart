@@ -31,7 +31,6 @@ class AppTextStyles {
 
   static final searchButton = GoogleFonts.inter(
     fontSize: 12,
-    // fontWeight: FontWeight.w600,
     color: Colors.white,
   );
 
@@ -56,6 +55,29 @@ class AppTextStyles {
     fontSize: 16,
     fontWeight: FontWeight.w600,
     color: AppColors.primary,
+  );
+
+  //destination card
+
+  static final destinationTitle = GoogleFonts.inter(
+    fontSize: 25,
+    fontWeight: FontWeight.bold,
+    color: AppColors.textWhite,
+  );
+
+  static final destinationSubtitle = GoogleFonts.inter(
+    fontSize: 10,
+    fontWeight: FontWeight.w500,
+    color: Colors.white.withOpacity(.85),
+  );
+  static final destinationLocation = GoogleFonts.inter(
+    fontSize: 13,
+    color: Colors.white.withOpacity(.8),
+  );
+  static final destinationRating = GoogleFonts.inter(
+    color: Colors.white,
+    fontSize: 12,
+    fontWeight: FontWeight.w600,
   );
 
   static final navbar = GoogleFonts.inter(

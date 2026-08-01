@@ -7,8 +7,8 @@ class HeroSearch extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      height: 60,
+    return const SizedBox(
+      height: 50,
       width: AppDimensions.heroSearchWidth,
       child: const AppSearchBar(hintText: "Where do you want to go?"),
     );

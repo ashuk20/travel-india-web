@@ -20,22 +20,18 @@ class HeroPopularSearches extends StatelessWidget {
       children: [
         Row(
           children: [
-            Icon(Icons.local_fire_department,size: 18,color: Colors.red,),
-             SizedBox(width: 6),
-        Text(
-          "Trending Searches",
-          style: AppTextStyles.heroSectionLabel,
-        ),
+            Icon(Icons.local_fire_department, size: 18, color: Colors.red),
+            const SizedBox(width: 6),
+            Text("Trending Searches:", style: AppTextStyles.heroSectionLabel),
+            const SizedBox(width: 16),
+            Wrap(
+              spacing: 12,
+              runSpacing: 12,
+              children: popularSearches
+                  .map((place) => SearchChip(title: place))
+                  .toList(),
+            ),
           ],
-        ),
-       
-        SizedBox(height: 16),
-        Wrap(
-          spacing: 12,
-          runSpacing: 12,
-          children: popularSearches
-              .map((place) => SearchChip(title: place))
-              .toList(),
         ),
       ],
     );

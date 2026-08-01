@@ -12,7 +12,7 @@ class SearchChip extends StatelessWidget {
       borderRadius: BorderRadius.circular(30),
       onTap: onTap,
       child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
         decoration: BoxDecoration(
           color: Colors.white.withOpacity(.12),
           borderRadius: BorderRadius.circular(30),

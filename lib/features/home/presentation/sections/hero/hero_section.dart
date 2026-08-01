@@ -11,7 +11,7 @@ class HeroSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 500,
+      height: 400,
       child: Stack(
         fit: StackFit.expand,
         children: [
@@ -35,7 +35,6 @@ class HeroSection extends StatelessWidget {
           ),
           const Positioned(top: 0, left: 0, right: 0, child: HomeNavbar()),
           Positioned(top: 100, left: 0, right: 0, child: HeroContent()),
-        
         ],
       ),
     );

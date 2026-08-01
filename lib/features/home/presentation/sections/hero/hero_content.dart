@@ -27,9 +27,9 @@ class HeroContent extends StatelessWidget {
           // mainAxisSize: MainAxisSize.min,
           children: const [
             HeroTitle(),
-            SizedBox(height: AppSpacing.md),
+            const SizedBox(height: AppSpacing.md),
             HeroSearch(),
-            SizedBox(height: 28),
+            const SizedBox(height: 20),
             HeroPopularSearches(),
           ],
         ),

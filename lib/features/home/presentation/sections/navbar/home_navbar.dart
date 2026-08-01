@@ -19,7 +19,7 @@ class HomeNavbar extends StatelessWidget {
               child: Row(
                 children: const [
                   NavbarLogo(),
-                  SizedBox(width: 40,),
+                  const SizedBox(width: 40,),
                   Expanded(child: NavbarMenu()),
                   
                   NavbarActions(),

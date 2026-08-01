@@ -8,10 +8,14 @@ class AppDimensions {
 
   static const searchBarHeight = 84.0;
   static const searchButtonHeight = 74.0;
-  static const searchButtonWidth = 110.0;
+  static const searchButtonWidth = 95.0;
   static const pillRadius = 999.0;
 
   static const navBarHeight = 80.0;
   static const sectionSpacing = 80.0;
   static const pageHorizontalPadding = 32.0;
+
+  //destination cards
+  static const double cardWidth = 150;
+  static const double cardHeight = 200;
 }
