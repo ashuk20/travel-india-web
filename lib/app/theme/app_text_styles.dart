@@ -47,9 +47,9 @@ class AppTextStyles {
     letterSpacing: 0.5,
   );
   static final sectionTitle = GoogleFonts.playfairDisplay(
-    fontSize: 34,
+    fontSize: 20,
     fontWeight: FontWeight.w700,
-    color: AppColors.primary,
+    color: AppColors.heroOverlayEnd,
   );
   static final sectionAction = GoogleFonts.inter(
     fontSize: 16,
@@ -60,7 +60,7 @@ class AppTextStyles {
   //destination card
 
   static final destinationTitle = GoogleFonts.inter(
-    fontSize: 25,
+    fontSize: 20,
     fontWeight: FontWeight.bold,
     color: AppColors.textWhite,
   );
