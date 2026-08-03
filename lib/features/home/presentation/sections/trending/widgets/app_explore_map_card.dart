@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:travel_india/features/home/presentation/sections/trending/widgets/explore_map_header.dart';
 
 class AppExploreMapCard extends StatelessWidget {
   const AppExploreMapCard({super.key});
@@ -22,32 +23,9 @@ class AppExploreMapCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            "Explore Maharashtra",
-            style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
-          ),
-          SizedBox(height: 10),
-          Text(
-            "Click on the map to explore amazing\nplaces across Maharashtra.",
-            style: TextStyle(color: Colors.grey.shade600, height: 1.5),
-          ),
-          const Spacer(),
-          Container(
-            height: 180,
-            decoration: BoxDecoration(
-              color: const Color(0xffF6F8FA),
-              borderRadius: BorderRadius.circular(20),
-            ),
-          ),
-          const SizedBox(height: 24),
-          SizedBox(
-            width: double.infinity,
-            height: 54,
-            child: FilledButton(
-              onPressed: () {},
-              child: const Text("Explore Map"),
-            ),
-          ),
+          ExploreMapHeader(),
+          SizedBox(height: 24),
+          Expanded(child: Placeholder(),)
         ],
       ),
     );
