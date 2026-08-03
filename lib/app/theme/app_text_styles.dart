@@ -23,7 +23,7 @@ class AppTextStyles {
   );
 
   static final heroDescription = GoogleFonts.inter(
-    fontSize: 20,
+    fontSize: 18,
     fontWeight: FontWeight.w400,
     height: 1.8,
     color: Colors.white.withOpacity(.9),

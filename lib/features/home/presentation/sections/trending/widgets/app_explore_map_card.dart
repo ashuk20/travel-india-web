@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:travel_india/features/home/presentation/sections/trending/widgets/explore_map_header.dart';
+import 'package:travel_india/features/home/presentation/sections/trending/widgets/explore_map_view.dart';
 
 class AppExploreMapCard extends StatelessWidget {
   const AppExploreMapCard({super.key});
@@ -25,7 +26,7 @@ class AppExploreMapCard extends StatelessWidget {
         children: [
           ExploreMapHeader(),
           SizedBox(height: 24),
-          Expanded(child: Placeholder(),)
+          Expanded(child: const ExploreMapView(),)
         ],
       ),
     );

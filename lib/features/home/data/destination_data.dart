@@ -4,7 +4,7 @@ class DestinationData {
   static const List<DestinationModel> trending = [
     DestinationModel(
       title: 'Mumbai',
-      subtitle:
+      tagline:
           "Mumbai, the city of dreams. Mumbai, the city that never sleeps.",
       location: 'Mumbai',
       rating: 5.0,
@@ -12,7 +12,7 @@ class DestinationData {
     ),
     DestinationModel(
       title: 'Lonavala',
-      subtitle:
+      tagline:
           "Lonavala is a hill station surrounded by green valleys in western India near Mumbai.",
       location: 'Pune',
       rating: 4.8,
@@ -21,7 +21,7 @@ class DestinationData {
 
     DestinationModel(
       title: 'Mahabaleshwar',
-      subtitle:
+      tagline:
           "Lonavala is a hill station surrounded by green valleys in western India near Mumbai.",
       location: 'Pune',
       rating: 4.8,
@@ -29,7 +29,7 @@ class DestinationData {
     ),
     DestinationModel(
       title: 'Alibag',
-      subtitle:
+      tagline:
           "Located just below the border of Mumbai, Alibag is a little coastal town in the state of Maharashtra.",
       location: 'Raigad',
       rating: 4.8,
