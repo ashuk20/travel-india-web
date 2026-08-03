@@ -16,18 +16,23 @@ class HeroTitle extends StatelessWidget {
         children: [
           Text("EXPLORE INDIA", style: AppTextStyles.heroTitle),
           // const SizedBox(height: AppSpacing.xs),
-          Text(
-            "Like Never Before",
-            style: AppTextStyles.heroSubTitle.copyWith(
-              fontSize: 25,
-              color: AppColors.secondary,
-            ),
-          ),
+          // Text(
+          //   "Like Never Before",
+          //   style: AppTextStyles.herotagline.copyWith(
+          //     fontSize: 25,
+          //     color: AppColors.secondary,
+          //   ),
+          // ),
           const SizedBox(height: AppSpacing.sm),
+          // Text(
+          //   "Search destinations, plan trips, and uncover hidden gems.",
+          //   style: AppTextStyles.heroDescription,
+          // ),
           Text(
             "Search destinations, plan trips, and uncover hidden gems.",
-            style: AppTextStyles.heroDescription,
+            style: TextStyle(color: AppColors.secondary, fontSize: 25),
           ),
+          const SizedBox(height: AppSpacing.md),
         ],
       ),
     );

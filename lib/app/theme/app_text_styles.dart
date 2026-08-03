@@ -14,7 +14,7 @@ class AppTextStyles {
     letterSpacing: 2,
   );
 
-  static final heroSubTitle = GoogleFonts.inter(
+  static final herotagline = GoogleFonts.inter(
     fontSize: 40,
     fontStyle: FontStyle.italic,
     fontWeight: FontWeight.w600,
@@ -60,12 +60,12 @@ class AppTextStyles {
   //destination card
 
   static final destinationTitle = GoogleFonts.inter(
-    fontSize: 20,
+    fontSize: 19,
     fontWeight: FontWeight.bold,
     color: AppColors.textWhite,
   );
 
-  static final destinationSubtitle = GoogleFonts.inter(
+  static final destinationtagline = GoogleFonts.inter(
     fontSize: 10,
     fontWeight: FontWeight.w500,
     color: Colors.white.withOpacity(.85),
